@@ -1,0 +1,20 @@
+costs:
+  maker_bps: 0.5
+  taker_bps: 1.0
+simulation:
+  latency_ms: 50
+  slippage_ticks_when_market: 0.5
+  queue_fill_intensity: 0.8
+risk:
+  max_position_usd: 20000
+  max_leverage: 1.0
+  ewma_var_alpha: 0.97
+sizing:
+  vol_target_annual: 0.15
+  min_notional: 50
+policies:
+  - market_at_signal
+  - twap
+  - pov
+  - limit_queue_aware
+  - rl_agent

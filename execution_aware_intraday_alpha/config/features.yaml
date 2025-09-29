@@ -1,0 +1,11 @@
+lags: [1, 2, 5, 10]
+windows:
+  ofi: 10
+  vol: 60
+  trend: 30
+seasonality:
+  minute_of_hour: true
+  hour_of_day: true
+target:
+  horizon_seconds: 60
+  method: mid_return

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "execution-aware-alpha-crypto"
+version = "0.1.0"
+description = "Execution-aware intraday alpha lab for crypto: signal → policy → slippage-aware PnL"
+authors = [{name="You", email="you@example.com"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas>=2.0",
+    "scikit-learn>=1.2",
+    "lightgbm",
+    "pyyaml",
+    "mlflow",
+    "matplotlib",
+    "plotly",
+    "tqdm",
+    "requests",
+    "numba",
+    "gymnasium",
+    "jinja2",
+    "scipy",
+    "statsmodels",
+    "pydantic",
+    "rich",
+]
+[tool.setuptools.packages.find]
+where = ["src"]

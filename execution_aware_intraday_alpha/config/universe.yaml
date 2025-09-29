@@ -1,0 +1,11 @@
+symbols:
+  - symbol: BTCUSDT
+    venue: binance
+    quote: USDT
+session:
+  tz: UTC
+  start: 00:00:00
+  end: 23:59:59
+bar_seconds: 1
+lookback_days: 1
+store_dir: ./data

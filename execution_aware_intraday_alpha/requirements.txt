@@ -1,0 +1,17 @@
+numpy
+pandas>=2.0
+scikit-learn>=1.2
+lightgbm
+pyyaml
+mlflow
+matplotlib
+plotly
+tqdm
+requests
+numba
+gymnasium
+jinja2
+scipy
+statsmodels
+pydantic
+rich
